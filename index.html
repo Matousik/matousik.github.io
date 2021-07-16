@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- tenhle tag je důležitej pro to aby ti stránka dobře fungovala na mobilech, dávej to furt -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts, z nějakýho důvodu mu to jde i přes tenhle jednoduchej odkaz a ne přes to co jsem měl v minulém souboru -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet, bootstrap umí uppercase skrz class -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- vertikální zarovnání je použitý přes d-flex - aktivace flexboxu -->
+    <div class="container d-flex align-items-center h-100">
+      <div class="row">
+        <!-- bootstrap má svoje classy, vždycky si je najdeš na netu -->
+        <header class="text-center col-12">
+        <h1 class="text-uppercase"><strong>Welcome to Moon Hunters</strong></h1>
+        </header>
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+        <hr>
+        <a href="https://mailchi.mp/3df1d76ebd71/moonhunters">  <button type="button" class="text-uppercase btn btn-primary btn-xl">Find out more!</button></a>
+        </section>
+     </div>
+    </div>
+  </body>
+</html>
